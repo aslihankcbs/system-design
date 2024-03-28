@@ -1,18 +1,15 @@
-# Load Balancer
+# Load Balancer Notes
 
-#### Keywords
-- distributes traffic
-- web servers
-- availability
-- no failover
+## Keywords
+- Distributes traffic
+- Web servers
+- Availability
+- No failover
 
-A load balancer evenly distributes incoming traffic among web servers that are defined in a load-balanced set.
-With this system, users cannot reach web servers. They only reach public IPs.
+A load balancer evenly distributes incoming traffic among web servers that are defined in a load-balanced set. Users cannot directly reach the web servers; they only interact with public IPs.
 
-For security, private IPs are used for communication between servers (Private IP is an IP address reachable only between servers in the same network. It is unreachable on the internet).
-The load balancer communicates with web servers through private IPs.
+For security reasons, private IPs are used for communication between servers. Private IPs are only reachable within the same network and are not accessible over the internet. The load balancer communicates with web servers through these private IPs.
 
-With a load balancer and adding a second server, we solved no failover and improved the availability of the web tier.
-If one server goes offline all the traffic will be routed to other servers. This prevents the website from going offline.
+By implementing a load balancer and adding a second server, we have addressed the issue of no failover and significantly improved the availability of the web tier. In the event that one server goes offline, all traffic is automatically rerouted to other servers, preventing the website from becoming inaccessible.
 
-If the website traffic grows rapidly, we can add more servers web server pool and the load balancer automatically starts to send requests to them.
+In the case of rapid website traffic growth, we can easily scale by adding more servers to the web server pool. The load balancer will automatically start directing requests to these additional servers, ensuring efficient distribution of traffic.
