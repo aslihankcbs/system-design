@@ -6,6 +6,7 @@
 - Availability
 - No failover
 
+![Load Balancer](../../resources/load-balancer.png)
 A load balancer evenly distributes incoming traffic among web servers that are defined in a load-balanced set. Users cannot directly reach the web servers; they only interact with public IPs.
 
 For security reasons, private IPs are used for communication between servers. Private IPs are only reachable within the same network and are not accessible over the internet. The load balancer communicates with web servers through these private IPs.

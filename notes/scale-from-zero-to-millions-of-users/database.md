@@ -1,6 +1,7 @@
 # Database
 
 To accommodate a growing user base, multiple servers are necessary, with one dedicated to the **database (data tier)** and another to handle **web/mobile traffic (web tier)**. This separation enables independent scaling of each tier.
+![Database](../../resources/database.png)
 
 ### Relational Databases vs Non-Relational Databases
 
