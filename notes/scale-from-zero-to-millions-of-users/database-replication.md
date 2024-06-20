@@ -5,6 +5,7 @@
 ### 1. Master/Slave Relationship
 
 **Master Database:** Supports write operations (insert, delete, update).
+
 **Slave Database:** Receives copies of data from the master and supports read operations.
 
 ### 2. Performance
