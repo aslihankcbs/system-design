@@ -36,7 +36,8 @@ Welcome to the System Design Interview Course repository! This repository contai
 ## 01. Scale From Zero To Millions Of Users
 
 This lesson covers strategies for designing systems that can scale from zero users to handling millions of users.
-[Go to intro page!](#notes/scale-from-zero-to-millions-of-users/intro.md)
+
+[Go to intro page!](notes/scale-from-zero-to-millions-of-users/intro.md)
 
 ## 02. Back-of-the-envelope Estimation
 
