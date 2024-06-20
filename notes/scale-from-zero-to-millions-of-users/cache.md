@@ -67,7 +67,6 @@ A network of geographically dispersed servers delivering static content.
 - **Cost:**
   - **Third-Party Providers:** Charged for data transfers.
   - **Infrequent Assets:** Consider moving them out of the CDN to save costs.
-  
 
 - **Cache Expiry:**
   - **Time-Sensitive Content:** Set appropriate expiry times.
